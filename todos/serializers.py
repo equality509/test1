@@ -6,4 +6,4 @@ class TodoSerializer(serializers.HyperlinkedModelSerializer):
         # Which model will get serialized by this class
         model = Todo
         # Which fields should be included in the output
-        fields = ['id', 'subject', 'details']
+        fields = ['id', 'make', 'model', 'year','color','price']
